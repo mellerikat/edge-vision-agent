@@ -2,8 +2,38 @@ apiVersion: v1
 entries:
   edge-vision-agent:
   - apiVersion: v2
+    appVersion: 1.0.2
+    created: "2025-06-27T02:10:32.966081931Z"
+    description: A Helm chart for Kubernetes
+    digest: 5f0c6b03e97148f0ac71be91e9407621452cc4d4fc1f5704aa01fde70fddf607
+    name: edge-vision-agent
+    type: application
+    urls:
+    - https://mellerikat.github.io/edge-vision-agent/edge-vision-agent-0.8.0.tgz
+    version: 0.8.0
+  - apiVersion: v2
+    appVersion: 1.0.1
+    created: "2025-06-27T02:10:32.965350723Z"
+    description: A Helm chart for Kubernetes
+    digest: 4a9c9fa3cd4dbacb2aa6d8f7182a9e29be18520606081d1bc65db3c8da6afa53
+    name: edge-vision-agent
+    type: application
+    urls:
+    - https://mellerikat.github.io/edge-vision-agent/edge-vision-agent-0.7.0.tgz
+    version: 0.7.0
+  - apiVersion: v2
+    appVersion: 1.0.1-alpha.2
+    created: "2025-06-27T02:10:32.964728942Z"
+    description: A Helm chart for Kubernetes
+    digest: 84091c4e39c901cc6f8b8bdf033901c2c36048d2448284c0bedc29cfb4ea4ba6
+    name: edge-vision-agent
+    type: application
+    urls:
+    - https://mellerikat.github.io/edge-vision-agent/edge-vision-agent-0.5.0.tgz
+    version: 0.5.0
+  - apiVersion: v2
     appVersion: 0.2.0
-    created: "2025-04-17T02:37:38.660184751Z"
+    created: "2025-06-27T02:10:32.964067136Z"
     description: A Helm chart for Kubernetes
     digest: 0f7c781fb6e219db53e60b29a2d56e8f5d367c4206acf8fe88c036765858709a
     name: edge-vision-agent
@@ -13,7 +43,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-04-17T02:37:38.659779807Z"
+    created: "2025-06-27T02:10:32.963526261Z"
     description: A Helm chart for Kubernetes
     digest: cff3f3eec6b98918c0d84521f86a1ec17855d0e2bb51ef220bcd5972fbb40306
     name: edge-vision-agent
@@ -21,4 +51,4 @@ entries:
     urls:
     - https://mellerikat.github.io/edge-vision-agent/edge-vision-agent-0.1.0.tgz
     version: 0.1.0
-generated: "2025-04-17T02:37:38.659401755Z"
+generated: "2025-06-27T02:10:32.96297657Z"
