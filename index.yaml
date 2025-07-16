@@ -2,10 +2,20 @@ apiVersion: v1
 entries:
   edge-vision-agent:
   - apiVersion: v2
-    appVersion: 1.1.2
-    created: "2025-07-03T00:15:24.654110334Z"
+    appVersion: 1.1.3
+    created: "2025-07-16T02:29:14.857837544Z"
     description: A Helm chart for Kubernetes
-    digest: e8915d7074358a2ba494c0c857ffbe7cd5146a6e8b46f9c567f165ef74d9229d
+    digest: 983ac7409ca49af9f9845349f51dcbf4faa095e354b7c8d1872da86a7f3e35f2
+    name: edge-vision-agent
+    type: application
+    urls:
+    - https://mellerikat.github.io/edge-vision-agent/edge-vision-agent-0.9.4.tgz
+    version: 0.9.4
+  - apiVersion: v2
+    appVersion: 1.1.2
+    created: "2025-07-16T02:29:14.857271866Z"
+    description: A Helm chart for Kubernetes
+    digest: 0fddc24192fede0445361cae5c8a1b5b3b81877048694c0b84f6c4f740d14909
     name: edge-vision-agent
     type: application
     urls:
@@ -13,7 +23,7 @@ entries:
     version: 0.9.3
   - apiVersion: v2
     appVersion: 1.1.1
-    created: "2025-07-03T00:15:24.652789005Z"
+    created: "2025-07-16T02:29:14.856486806Z"
     description: A Helm chart for Kubernetes
     digest: f5ede31441a8c4d02360d7e8a031beb35ec9e82775dd4b83d93237b20a7e722e
     name: edge-vision-agent
@@ -23,7 +33,7 @@ entries:
     version: 0.9.2
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2025-07-03T00:15:24.65127326Z"
+    created: "2025-07-16T02:29:14.855794863Z"
     description: A Helm chart for Kubernetes
     digest: 5b31c5bf81c784fbe95d3f7f1ba5659128232bc6613363d0b283eb117b69b47b
     name: edge-vision-agent
@@ -33,7 +43,7 @@ entries:
     version: 0.9.1
   - apiVersion: v2
     appVersion: 1.0.2
-    created: "2025-07-03T00:15:24.648681121Z"
+    created: "2025-07-16T02:29:14.855061337Z"
     description: A Helm chart for Kubernetes
     digest: 5f0c6b03e97148f0ac71be91e9407621452cc4d4fc1f5704aa01fde70fddf607
     name: edge-vision-agent
@@ -43,7 +53,7 @@ entries:
     version: 0.8.0
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2025-07-03T00:15:24.647727763Z"
+    created: "2025-07-16T02:29:14.854289359Z"
     description: A Helm chart for Kubernetes
     digest: 4a9c9fa3cd4dbacb2aa6d8f7182a9e29be18520606081d1bc65db3c8da6afa53
     name: edge-vision-agent
@@ -53,7 +63,7 @@ entries:
     version: 0.7.0
   - apiVersion: v2
     appVersion: 1.0.1-alpha.2
-    created: "2025-07-03T00:15:24.646859067Z"
+    created: "2025-07-16T02:29:14.853610301Z"
     description: A Helm chart for Kubernetes
     digest: 84091c4e39c901cc6f8b8bdf033901c2c36048d2448284c0bedc29cfb4ea4ba6
     name: edge-vision-agent
@@ -63,7 +73,7 @@ entries:
     version: 0.5.0
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2025-07-03T00:15:24.646031271Z"
+    created: "2025-07-16T02:29:14.852832491Z"
     description: A Helm chart for Kubernetes
     digest: 0f7c781fb6e219db53e60b29a2d56e8f5d367c4206acf8fe88c036765858709a
     name: edge-vision-agent
@@ -73,7 +83,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-07-03T00:15:24.645342035Z"
+    created: "2025-07-16T02:29:14.852260533Z"
     description: A Helm chart for Kubernetes
     digest: cff3f3eec6b98918c0d84521f86a1ec17855d0e2bb51ef220bcd5972fbb40306
     name: edge-vision-agent
@@ -81,4 +91,4 @@ entries:
     urls:
     - https://mellerikat.github.io/edge-vision-agent/edge-vision-agent-0.1.0.tgz
     version: 0.1.0
-generated: "2025-07-03T00:15:24.644650574Z"
+generated: "2025-07-16T02:29:14.851654462Z"
