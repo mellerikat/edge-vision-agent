@@ -3,132 +3,132 @@ entries:
   eva-app:
   - apiVersion: v2
     appVersion: 2.1.2
-    created: "2025-09-02T05:23:01.390276156Z"
+    created: "2025-09-02T06:44:34.565529673Z"
     description: A Helm chart for Kubernetes
     digest: d625418d66823c1990d340085d1d0b663904cbf6b93b3f5be998d583862b5aec
     name: eva-app
     type: application
     urls:
-    - https://mellerikat.github.io/edge-vision-agent/eva-app-1.0.3.tgz
+    - https://mellerikat.github.io/eva-app/eva-app-1.0.3.tgz
     version: 1.0.3
   - apiVersion: v2
     appVersion: 2.1.1
-    created: "2025-09-02T05:23:01.389237037Z"
+    created: "2025-09-02T06:44:34.563932795Z"
     description: A Helm chart for Kubernetes
     digest: c48f50804a136a40082e0d89244adb92abbc632286b8ba577aa770ab10ea5e7f
     name: eva-app
     type: application
     urls:
-    - https://mellerikat.github.io/edge-vision-agent/eva-app-1.0.2.tgz
+    - https://mellerikat.github.io/eva-app/eva-app-1.0.2.tgz
     version: 1.0.2
   - apiVersion: v2
     appVersion: 2.1.0
-    created: "2025-09-02T05:23:01.386751769Z"
+    created: "2025-09-02T06:44:34.563151426Z"
     description: A Helm chart for Kubernetes
     digest: 6bae5089cacd6ad8ec9979644dad7e4a96c1e9593b44542b7947b382d54eda58
     name: eva-app
     type: application
     urls:
-    - https://mellerikat.github.io/edge-vision-agent/eva-app-1.0.1.tgz
+    - https://mellerikat.github.io/eva-app/eva-app-1.0.1.tgz
     version: 1.0.1
   - apiVersion: v2
     appVersion: 2.0.0
-    created: "2025-09-02T05:23:01.386059414Z"
+    created: "2025-09-02T06:44:34.5623885Z"
     description: A Helm chart for Kubernetes
     digest: f856dc3601fe25814dffdb3b6a6b1bbcad50d01f9065b298c4e5e7be8e713b23
     name: eva-app
     type: application
     urls:
-    - https://mellerikat.github.io/edge-vision-agent/eva-app-1.0.0.tgz
+    - https://mellerikat.github.io/eva-app/eva-app-1.0.0.tgz
     version: 1.0.0
   - apiVersion: v2
     appVersion: 1.1.3
-    created: "2025-09-02T05:23:01.385398029Z"
+    created: "2025-09-02T06:44:34.561633964Z"
     description: A Helm chart for Kubernetes
     digest: 1bb5ee14e18b191636537eec6db0878d75fe906f8f1e00103213fb302a51159f
     name: eva-app
     type: application
     urls:
-    - https://mellerikat.github.io/edge-vision-agent/eva-app-0.9.4.tgz
+    - https://mellerikat.github.io/eva-app/eva-app-0.9.4.tgz
     version: 0.9.4
   - apiVersion: v2
     appVersion: 1.1.2
-    created: "2025-09-02T05:23:01.384823129Z"
+    created: "2025-09-02T06:44:34.560969676Z"
     description: A Helm chart for Kubernetes
     digest: 39159ea2d26060c8e59c1187c572194428b6f595c85424721dc42f1916d526fd
     name: eva-app
     type: application
     urls:
-    - https://mellerikat.github.io/edge-vision-agent/eva-app-0.9.3.tgz
+    - https://mellerikat.github.io/eva-app/eva-app-0.9.3.tgz
     version: 0.9.3
   - apiVersion: v2
     appVersion: 1.1.1
-    created: "2025-09-02T05:23:01.384291019Z"
+    created: "2025-09-02T06:44:34.560242588Z"
     description: A Helm chart for Kubernetes
     digest: 9c9037dde66650d820e5fdd5625d94836b4c4cb279907908b54409e1d16860dc
     name: eva-app
     type: application
     urls:
-    - https://mellerikat.github.io/edge-vision-agent/eva-app-0.9.2.tgz
+    - https://mellerikat.github.io/eva-app/eva-app-0.9.2.tgz
     version: 0.9.2
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2025-09-02T05:23:01.383756918Z"
+    created: "2025-09-02T06:44:34.559571188Z"
     description: A Helm chart for Kubernetes
     digest: c44807f7f1705dbffff23f791d57ee24cc78ad7ce2e011089f603fb634ba23af
     name: eva-app
     type: application
     urls:
-    - https://mellerikat.github.io/edge-vision-agent/eva-app-0.9.1.tgz
+    - https://mellerikat.github.io/eva-app/eva-app-0.9.1.tgz
     version: 0.9.1
   - apiVersion: v2
     appVersion: 1.0.2
-    created: "2025-09-02T05:23:01.38314085Z"
+    created: "2025-09-02T06:44:34.558874563Z"
     description: A Helm chart for Kubernetes
     digest: 1172fbcc954627bab248e9a47672f865527995e19fa0c49c48b9b6ede138b3b0
     name: eva-app
     type: application
     urls:
-    - https://mellerikat.github.io/edge-vision-agent/eva-app-0.8.0.tgz
+    - https://mellerikat.github.io/eva-app/eva-app-0.8.0.tgz
     version: 0.8.0
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2025-09-02T05:23:01.382531622Z"
+    created: "2025-09-02T06:44:34.558066639Z"
     description: A Helm chart for Kubernetes
     digest: 841d033636205849cdeb8c3ce7271b98125266392bb8ae59287b48ce13454e92
     name: eva-app
     type: application
     urls:
-    - https://mellerikat.github.io/edge-vision-agent/eva-app-0.7.0.tgz
+    - https://mellerikat.github.io/eva-app/eva-app-0.7.0.tgz
     version: 0.7.0
   - apiVersion: v2
     appVersion: 1.0.1-alpha.2
-    created: "2025-09-02T05:23:01.382044976Z"
+    created: "2025-09-02T06:44:34.557308773Z"
     description: A Helm chart for Kubernetes
     digest: d9725439deef70dd297f6a41c7bb3f2904d53f85dbc9713e549439bf6ec2bc9c
     name: eva-app
     type: application
     urls:
-    - https://mellerikat.github.io/edge-vision-agent/eva-app-0.5.0.tgz
+    - https://mellerikat.github.io/eva-app/eva-app-0.5.0.tgz
     version: 0.5.0
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2025-09-02T05:23:01.380650016Z"
+    created: "2025-09-02T06:44:34.556553158Z"
     description: A Helm chart for Kubernetes
     digest: d1ef342d9d7d798d5b268178620f64236566492c0fbe636af47d4e9f3a1f7813
     name: eva-app
     type: application
     urls:
-    - https://mellerikat.github.io/edge-vision-agent/eva-app-0.2.0.tgz
+    - https://mellerikat.github.io/eva-app/eva-app-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-09-02T05:23:01.379212187Z"
+    created: "2025-09-02T06:44:34.555965162Z"
     description: A Helm chart for Kubernetes
     digest: d11ccdf6c8a1231568949823fdd22547c7595918605c834376f967fc192a7b9f
     name: eva-app
     type: application
     urls:
-    - https://mellerikat.github.io/edge-vision-agent/eva-app-0.1.0.tgz
+    - https://mellerikat.github.io/eva-app/eva-app-0.1.0.tgz
     version: 0.1.0
-generated: "2025-09-02T05:23:01.378113631Z"
+generated: "2025-09-02T06:44:34.555464093Z"
