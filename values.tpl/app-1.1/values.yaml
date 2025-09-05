@@ -1,0 +1,170 @@
+# Default values for eva-app.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+## For debug
+## Uncomment this line for debug, pod sleep infinity
+# command: ["sleep", "infinity"]
+# appVolumeMount:
+  # path: /home/userid/path/to/eva-app/apps/backend/app/app
+
+
+## onPremise flag를 true로 세팅하면 
+## serviceAccount 및 mysql client가 create 됩니다.
+## pv, pvc가 disable 되고, hostPath가 mount 됩니다.
+onPremise: false
+
+
+configMap:
+  data:
+    # Example EVA-app URL: eva.try-mellerikat.com
+    BACKEND_HOST: {{EVA_APP_URL}}
+    BACKEND_SECURE: true
+
+    # The ALOML_EXECUTE_MODE decides which mode to run the alo inference.
+    # In "cluster" mode, you deploy the inference pods via "Edge Conductor" and use the inference service inside the cluster.
+    # When entering the "http" address, an external service is used to perform the inference.
+    ALOML_EXECUTE_MODE: "cluster"
+
+    # "on-premise" mode : download inference docker & deploy pod
+    # "eks" mode : deploy pod
+    # This value determined by the .Value.onPremise.
+    # For override default, use below
+    DEPLOYED_CLUSTER: "eks"
+
+    # Example Edge Conductor URL: https://edgecond.try-mellerikat.com
+    EDGE_CONDUCTOR_URL: {{EDGE_CONDUCTOR_URL}}
+
+    # Example LLM VLM Service URL: http://eva-agent.eva-agent.svc.cluster.local:8086
+    LLM_URL: {{LLM_URL}}
+    VLM_URL: {{VLM_URL}}
+
+    # Number of concurrent threads for the detector job in the pipeline
+    PIPELINE_JOB_DETECTOR_NUM: 1
+
+    # SQLAlchemy Configuration
+    # Maximum number of connections to allow in connection pool overflow
+    # Size of the connection pool to be maintained
+    SQLALCHEMY_POOL_MAX_OVERFLOW: 30
+    SQLALCHEMY_POOL_SIZE: 15
+
+    # Number of days after which alerts will expire
+    # This setting determines how long alert records are retained in the database before being automatically deleted
+    ALERT_EXPIRE_DAYS: 30
+
+    # Streamer Configuration
+    # Maximum size of the queue that holds image bytes for streaming
+    STREAMER_IMAGE_BYTES_QUEUE_MAX_SIZE: 150
+    # Maximum size of the queue that holds metadata for streaming
+    STREAMER_METADATA_QUEUE_MAX_SIZE: 50
+    # Latency in seconds for displaying the stream
+    # This setting determines the delay between capturing the stream and displaying it
+    STREAMER_DISPLAY_LATENCY_SECCONDS: 2.5
+    # Maximum age in seconds for interpolation metadata
+    INTERPOLATION_METADATA_MAX_AGE_SECONDS: 0.3
+    # Lookahead time in seconds for interpolation
+    INTERPOLATION_LOOKAHEAD_SECONDS: 0.25
+
+    # Ingester FPS Configuration
+    # Frames per second (FPS) rate for streaming, ml, and idle at ingestion
+    INGESTER_STREAM_FPS: 30
+    INGESTER_ML_FPS: 1
+    INGESTER_IDLE_FPS: 0.1
+
+    # USER_DB_ENCRYPTION_KEY
+    JWT_SECRET: {{USER_DB_ENCRYPTION_KEY}}
+
+
+## Configuration for database.
+##
+database:
+  name: "{{MYSQL_DATABASE_NAME}}"
+
+  ## mysql create when onPremise flag and mysql.create are true.
+  mysql:
+    create: false
+
+    service:
+      nodePort: 32060
+
+    password: passwd
+    user: root
+
+  rds:
+    host: {{MYSQL_HOST}}
+    port: {{MYSQL_PORT}}
+    password: {{MYSQL_PASSWORD}}
+    user: {{MYSQL_USER}}
+
+
+image:
+  repository: 339713051385.dkr.ecr.ap-northeast-2.amazonaws.com/mellerikat/release/eva-app
+  
+  # This sets the pull policy for images.
+  pullPolicy: IfNotPresent
+  
+  # Overrides the image tag whose default is the chart appVersion.
+  # tag: "latest"
+
+
+inference:
+  manifest: "inference/inference_manifest.yaml"
+  service:
+    nodePort: 32030
+  replicas: 1
+
+
+nodeSelector:
+  nodegroup: {{EKS_NODEGROUP}}
+
+
+pv:
+  ## Use 'pv-{{ include "edge-conductor.fullname" . }}' by default
+  nameOverride: ""
+  csi:
+    volumeHandle: {{EFS_VLOUMEHANDLE}}
+  storageClassName: efs-sc-eva-app
+  storage: 30Gi
+
+  ## Use 'pvc-{{ include "edge-conductor.fullname" . }}' by default
+  pvc:
+    nameOverride: ""
+
+
+replicaCount: 1
+
+
+resources: {}
+# requests:
+#   nvidia.com/gpu: 1
+
+
+serviceAccount:
+  ## Set the deployed serviceAccount name
+  ## Default name is Helm Release Name
+  ## Service account create when onPremise flag and serviceAccount.create are true.
+  create: false
+  name: {{EKS_SERVICE_ACCOUNT}}
+
+
+secret:
+  nameOverride: ""
+
+  # This data is used in secret.
+  # Access key and Secret key to get vision inferece docker from ecr.
+  data:
+    AWS_ACCESS_KEY: {{AWS_ACCESS_KEY}}
+    AWS_SECRET_KEY: {{AWS_SECRET_KEY}}
+
+
+service:
+  nodePort: 32010
+  internal:
+    enabled: true
+
+
+## This hostPath is mounted with the pod.
+## The default is helm release name.
+volume:
+  hostPath:
+    path: "" # "/eva-app"
