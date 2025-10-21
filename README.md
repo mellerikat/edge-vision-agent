@@ -4,35 +4,44 @@ eva app and related helm charts
 
 ## Installation
 
-### Clone eva-app helm repository
-
-It includes values templates in addition to charts.
-
-```sh
-git clone https://github.com/mellerikat/eva-app.git
-cd eva-app
-```
-
-### Install eva-app
-
-```sh
-cp -r values.tpl/app-{chart version} .values-{postfix you want}
-```
-
-Modify values in .values-{postfix you want} to your environment.
+### Preparing the Helm client for eva-app installation
 
 ```sh
 helm repo add eva-app https://mellerikat.github.io/eva-app
 helm repo update
 ```
 
+<br>
+
+### Installing the eva-app version
+
+Update the list of available charts from the chart repository.
+
 ```sh
-helm upgrade --install eva-app --namespace eva-app eva-app/eva-app --values values.yaml
+helm repo update
 ```
 
+<br>
+Save the chart's default values to a file, then customize the contents to match your environment's configuration.
 
-If the service account doesn't have ECR Pull access, you might need to force the Helm client to pull the eva-app docker mage like this,
+Caution, please be aware that the default value template can change with each new version of the chart.
+
 ```sh
-$ aws ecr get-login-password --region ap-northeast-2 | sudo docker login --username AWS --password-stdin 339713051385.dkr.ecr.ap-northeast-2.amazonaws.com
-$ docker pull 339713051385.dkr.ecr.ap-northeast-2.amazonaws.com/mellerikat/release/eva-app:{{version}}   # <= 2.1.2)
+helm show values eva-app/eva-app > my-values.yaml
+```
+
+<br>
+Update eva-app.
+
+```sh
+helm upgrade --install eva-app --namespace eva-app eva-app/eva-app --values my-values.yaml
+```
+
+<br>
+For deployments outside of the AWS cloud (such as on-premise or NPC), the following command may be required to pull the eva-app image from its repository in AWS ECR.
+
+```sh
+region=ap-northeast-2
+eva_app_ecr_password=$(aws ecr get-login-password --region ${region})
+helm upgrade --install eva-app --values ./values.2.2.3.eva-app.yaml --namespace eva-app eva-app/eva-app --set imagePullSecrets.password="${eva_app_ecr_password}"
 ```
