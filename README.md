@@ -41,7 +41,12 @@ helm upgrade --install eva-app --namespace eva-app eva-app/eva-app --values my-v
 For deployments outside of the AWS cloud (such as on-premise or NPC), the following command may be required to pull the eva-app image from its repository in AWS ECR.
 
 ```sh
+cat .aws/credentials
+[eva-app-erc-pull]  # aws key to pull eva app docker image from ecr
+aws_access_key_id = ???
+aws_secret_access_key = ???
+
 region=ap-northeast-2
-eva_app_ecr_password=$(aws ecr get-login-password --region ${region})
+eva_app_ecr_password=$(aws --profile eva-app-ecr-pull ecr get-login-password --region ${region})
 helm upgrade --install eva-app --values ./values.2.2.3.eva-app.yaml --namespace eva-app eva-app/eva-app --set imagePullSecrets.password="${eva_app_ecr_password}"
 ```
