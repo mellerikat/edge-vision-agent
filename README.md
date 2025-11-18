@@ -48,5 +48,5 @@ aws_secret_access_key = ???
 
 region=ap-northeast-2
 eva_app_ecr_password=$(aws --profile eva-app-ecr-pull ecr get-login-password --region ${region})
-helm upgrade --install eva-app --values ./values.2.2.3.eva-app.yaml --namespace eva-app eva-app/eva-app --set imagePullSecrets.password="${eva_app_ecr_password}"
+helm upgrade --install eva-app --values my-values.yaml --namespace eva-app eva-app/eva-app --set imagePullSecrets.password="${eva_app_ecr_password}"
 ```
