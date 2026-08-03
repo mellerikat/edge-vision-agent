@@ -3,7 +3,7 @@ entries:
   edge-vision-agent:
   - apiVersion: v2
     appVersion: 2.1.2
-    created: "2026-07-30T09:14:54.149989026Z"
+    created: "2026-08-03T06:12:36.609464114Z"
     description: A Helm chart for Kubernetes
     digest: 3c401132ecc7fa8b442ac4ca1a9dfdbf6717a97c5491d2fd8f5fc12a17bf5782
     name: edge-vision-agent
@@ -13,7 +13,7 @@ entries:
     version: 1.0.3
   - apiVersion: v2
     appVersion: 2.1.1
-    created: "2026-07-30T09:14:54.14904323Z"
+    created: "2026-08-03T06:12:36.608728268Z"
     description: A Helm chart for Kubernetes
     digest: c167141d647b78e0291a8a61de7aeb64b1b8f1c3f7d8780a79d567a424e86b25
     name: edge-vision-agent
@@ -23,7 +23,7 @@ entries:
     version: 1.0.2
   - apiVersion: v2
     appVersion: 2.1.0
-    created: "2026-07-30T09:14:54.148418427Z"
+    created: "2026-08-03T06:12:36.607863956Z"
     description: A Helm chart for Kubernetes
     digest: 2fb09f690b926caf34d09c837de00147276e9e63ff061a7d8d531bb6bf989f65
     name: edge-vision-agent
@@ -33,7 +33,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: 2.0.0
-    created: "2026-07-30T09:14:54.147816312Z"
+    created: "2026-08-03T06:12:36.606908404Z"
     description: A Helm chart for Kubernetes
     digest: 8ff99686c718ed3435b55346541bdb9dc1c2794772056792b897467446a61223
     name: edge-vision-agent
@@ -43,7 +43,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: 1.1.3
-    created: "2026-07-30T09:14:54.147197277Z"
+    created: "2026-08-03T06:12:36.605937847Z"
     description: A Helm chart for Kubernetes
     digest: 983ac7409ca49af9f9845349f51dcbf4faa095e354b7c8d1872da86a7f3e35f2
     name: edge-vision-agent
@@ -53,7 +53,7 @@ entries:
     version: 0.9.4
   - apiVersion: v2
     appVersion: 1.1.2
-    created: "2026-07-30T09:14:54.146651928Z"
+    created: "2026-08-03T06:12:36.605069171Z"
     description: A Helm chart for Kubernetes
     digest: e8915d7074358a2ba494c0c857ffbe7cd5146a6e8b46f9c567f165ef74d9229d
     name: edge-vision-agent
@@ -63,7 +63,7 @@ entries:
     version: 0.9.3
   - apiVersion: v2
     appVersion: 1.1.1
-    created: "2026-07-30T09:14:54.146086573Z"
+    created: "2026-08-03T06:12:36.604206345Z"
     description: A Helm chart for Kubernetes
     digest: 059999f3a5e5435488f3741fca641c79d464dbc92c6f7896521985330e69c17e
     name: edge-vision-agent
@@ -73,7 +73,7 @@ entries:
     version: 0.9.2
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2026-07-30T09:14:54.145537528Z"
+    created: "2026-08-03T06:12:36.603345091Z"
     description: A Helm chart for Kubernetes
     digest: a9f79d198095276b7f3c8a3a4e3fd005d4800a0e0d88c286fea207d1970bdc21
     name: edge-vision-agent
@@ -83,7 +83,7 @@ entries:
     version: 0.9.1
   - apiVersion: v2
     appVersion: 1.0.2
-    created: "2026-07-30T09:14:54.14496722Z"
+    created: "2026-08-03T06:12:36.60252791Z"
     description: A Helm chart for Kubernetes
     digest: 5f0c6b03e97148f0ac71be91e9407621452cc4d4fc1f5704aa01fde70fddf607
     name: edge-vision-agent
@@ -93,7 +93,7 @@ entries:
     version: 0.8.0
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2026-07-30T09:14:54.144351149Z"
+    created: "2026-08-03T06:12:36.60162334Z"
     description: A Helm chart for Kubernetes
     digest: 4a9c9fa3cd4dbacb2aa6d8f7182a9e29be18520606081d1bc65db3c8da6afa53
     name: edge-vision-agent
@@ -103,7 +103,7 @@ entries:
     version: 0.7.0
   - apiVersion: v2
     appVersion: 1.0.1-alpha.2
-    created: "2026-07-30T09:14:54.142890765Z"
+    created: "2026-08-03T06:12:36.600859206Z"
     description: A Helm chart for Kubernetes
     digest: 84091c4e39c901cc6f8b8bdf033901c2c36048d2448284c0bedc29cfb4ea4ba6
     name: edge-vision-agent
@@ -113,7 +113,7 @@ entries:
     version: 0.5.0
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2026-07-30T09:14:54.141390695Z"
+    created: "2026-08-03T06:12:36.599509195Z"
     description: A Helm chart for Kubernetes
     digest: 0f7c781fb6e219db53e60b29a2d56e8f5d367c4206acf8fe88c036765858709a
     name: edge-vision-agent
@@ -123,7 +123,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2026-07-30T09:14:54.13969413Z"
+    created: "2026-08-03T06:12:36.598743709Z"
     description: A Helm chart for Kubernetes
     digest: cff3f3eec6b98918c0d84521f86a1ec17855d0e2bb51ef220bcd5972fbb40306
     name: edge-vision-agent
@@ -133,10 +133,20 @@ entries:
     version: 0.1.0
   eva-app:
   - apiVersion: v2
-    appVersion: 3.1.0-alpah.2
-    created: "2026-07-30T09:14:54.13853486Z"
+    appVersion: 3.1.0-alpha.3
+    created: "2026-08-03T06:12:36.598431266Z"
     description: A Helm chart for Kubernetes
-    digest: bea2f78de35d7326b838af14bde2fe6aa507c88a86f95fff64a04e045f8c235e
+    digest: bdeeba2e17c495c3b9a6ddaa253c8279757cdd0e9c1ba3cede63965850e965f9
+    name: eva-app
+    type: application
+    urls:
+    - https://mellerikat.github.io/eva-app/eva-app-2.2.2.tgz
+    version: 2.2.2
+  - apiVersion: v2
+    appVersion: 3.1.0-alpah.2
+    created: "2026-08-03T06:12:36.597524723Z"
+    description: A Helm chart for Kubernetes
+    digest: 9d8b91c7b305dca91b5b5f0e24c2a5793c6b6a419e50e162156685e08e8fc218
     name: eva-app
     type: application
     urls:
@@ -144,7 +154,7 @@ entries:
     version: 2.2.1
   - apiVersion: v2
     appVersion: 3.1.0-alpah.1
-    created: "2026-07-30T09:14:54.136033678Z"
+    created: "2026-08-03T06:12:36.596605587Z"
     description: A Helm chart for Kubernetes
     digest: d87e7bba2dd826841315db5937fdf353b2b1c821e6da330afaa0ce863d7730a2
     name: eva-app
@@ -274,7 +284,7 @@ entries:
     version: 1.4.2
   - apiVersion: v2
     appVersion: 2.3.0
-    created: "2026-07-30T09:14:54.132239393Z"
+    created: "2026-08-03T06:12:36.595665143Z"
     description: A Helm chart for Kubernetes
     digest: 55721da0b70778cd4dfc64dbbeaec7fa339b258118866b265db9ba2ad29d0e9d
     name: eva-app
@@ -314,7 +324,7 @@ entries:
     version: 1.2.1
   - apiVersion: v2
     appVersion: 2.2.3
-    created: "2026-07-30T09:14:54.131566228Z"
+    created: "2026-08-03T06:12:36.594898292Z"
     description: A Helm chart for Kubernetes
     digest: 31698afca91ec18fb020c1532b72395cd4522cfd95b941bac485e13e840b182f
     name: eva-app
@@ -394,7 +404,7 @@ entries:
     version: 1.1.1
   - apiVersion: v2
     appVersion: 2.1.2
-    created: "2026-07-30T09:14:54.130960798Z"
+    created: "2026-08-03T06:12:36.594195433Z"
     description: A Helm chart for Kubernetes
     digest: 379357439c8f33352d449d44a9e77d059643afddfaa50e3b594df1605aa137ab
     name: eva-app
@@ -404,7 +414,7 @@ entries:
     version: 1.1.0
   - apiVersion: v2
     appVersion: 2.1.2
-    created: "2026-07-30T09:14:54.130457118Z"
+    created: "2026-08-03T06:12:36.593606976Z"
     description: A Helm chart for Kubernetes
     digest: d625418d66823c1990d340085d1d0b663904cbf6b93b3f5be998d583862b5aec
     name: eva-app
@@ -414,7 +424,7 @@ entries:
     version: 1.0.3
   - apiVersion: v2
     appVersion: 2.1.1
-    created: "2026-07-30T09:14:54.12984505Z"
+    created: "2026-08-03T06:12:36.592855748Z"
     description: A Helm chart for Kubernetes
     digest: c48f50804a136a40082e0d89244adb92abbc632286b8ba577aa770ab10ea5e7f
     name: eva-app
@@ -424,7 +434,7 @@ entries:
     version: 1.0.2
   - apiVersion: v2
     appVersion: 2.1.0
-    created: "2026-07-30T09:14:54.129235904Z"
+    created: "2026-08-03T06:12:36.592096651Z"
     description: A Helm chart for Kubernetes
     digest: 6bae5089cacd6ad8ec9979644dad7e4a96c1e9593b44542b7947b382d54eda58
     name: eva-app
@@ -434,7 +444,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: 2.0.0
-    created: "2026-07-30T09:14:54.128543672Z"
+    created: "2026-08-03T06:12:36.590540493Z"
     description: A Helm chart for Kubernetes
     digest: f856dc3601fe25814dffdb3b6a6b1bbcad50d01f9065b298c4e5e7be8e713b23
     name: eva-app
@@ -444,7 +454,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: 1.1.3
-    created: "2026-07-30T09:14:54.12783122Z"
+    created: "2026-08-03T06:12:36.58850359Z"
     description: A Helm chart for Kubernetes
     digest: 1bb5ee14e18b191636537eec6db0878d75fe906f8f1e00103213fb302a51159f
     name: eva-app
@@ -454,7 +464,7 @@ entries:
     version: 0.9.4
   - apiVersion: v2
     appVersion: 1.1.2
-    created: "2026-07-30T09:14:54.127268707Z"
+    created: "2026-08-03T06:12:36.586650454Z"
     description: A Helm chart for Kubernetes
     digest: 39159ea2d26060c8e59c1187c572194428b6f595c85424721dc42f1916d526fd
     name: eva-app
@@ -464,7 +474,7 @@ entries:
     version: 0.9.3
   - apiVersion: v2
     appVersion: 1.1.1
-    created: "2026-07-30T09:14:54.126570582Z"
+    created: "2026-08-03T06:12:36.583845687Z"
     description: A Helm chart for Kubernetes
     digest: 9c9037dde66650d820e5fdd5625d94836b4c4cb279907908b54409e1d16860dc
     name: eva-app
@@ -474,7 +484,7 @@ entries:
     version: 0.9.2
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2026-07-30T09:14:54.12587796Z"
+    created: "2026-08-03T06:12:36.58306016Z"
     description: A Helm chart for Kubernetes
     digest: c44807f7f1705dbffff23f791d57ee24cc78ad7ce2e011089f603fb634ba23af
     name: eva-app
@@ -484,7 +494,7 @@ entries:
     version: 0.9.1
   - apiVersion: v2
     appVersion: 1.0.2
-    created: "2026-07-30T09:14:54.125320689Z"
+    created: "2026-08-03T06:12:36.582433077Z"
     description: A Helm chart for Kubernetes
     digest: 1172fbcc954627bab248e9a47672f865527995e19fa0c49c48b9b6ede138b3b0
     name: eva-app
@@ -494,7 +504,7 @@ entries:
     version: 0.8.0
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2026-07-30T09:14:54.124675306Z"
+    created: "2026-08-03T06:12:36.581711318Z"
     description: A Helm chart for Kubernetes
     digest: 841d033636205849cdeb8c3ce7271b98125266392bb8ae59287b48ce13454e92
     name: eva-app
@@ -504,7 +514,7 @@ entries:
     version: 0.7.0
   - apiVersion: v2
     appVersion: 1.0.1-alpha.2
-    created: "2026-07-30T09:14:54.12401202Z"
+    created: "2026-08-03T06:12:36.581176328Z"
     description: A Helm chart for Kubernetes
     digest: d9725439deef70dd297f6a41c7bb3f2904d53f85dbc9713e549439bf6ec2bc9c
     name: eva-app
@@ -514,7 +524,7 @@ entries:
     version: 0.5.0
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2026-07-30T09:14:54.123488951Z"
+    created: "2026-08-03T06:12:36.58056551Z"
     description: A Helm chart for Kubernetes
     digest: d1ef342d9d7d798d5b268178620f64236566492c0fbe636af47d4e9f3a1f7813
     name: eva-app
@@ -524,7 +534,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2026-07-30T09:14:54.122928424Z"
+    created: "2026-08-03T06:12:36.580121539Z"
     description: A Helm chart for Kubernetes
     digest: d11ccdf6c8a1231568949823fdd22547c7595918605c834376f967fc192a7b9f
     name: eva-app
@@ -532,4 +542,4 @@ entries:
     urls:
     - https://mellerikat.github.io/eva-app/eva-app-0.1.0.tgz
     version: 0.1.0
-generated: "2026-07-30T09:14:54.122319591Z"
+generated: "2026-08-03T06:12:36.579679665Z"
