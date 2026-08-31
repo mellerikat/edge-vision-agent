@@ -133,6 +133,16 @@ entries:
     version: 0.1.0
   eva-app:
   - apiVersion: v2
+    appVersion: 3.1.3-rc.2
+    created: "2026-08-31T07:52:24.193855628Z"
+    description: A Helm chart for Kubernetes
+    digest: a5baf5143310edfff05ac1ed4e0648211391ffb7553adadd0f59f5832236ff1d
+    name: eva-app
+    type: application
+    urls:
+    - https://mellerikat.github.io/eva-app/eva-app-3.1.6.tgz
+    version: 3.1.6
+  - apiVersion: v2
     appVersion: 3.1.3-rc.1
     created: "2026-08-27T02:33:33.887655648Z"
     description: A Helm chart for Kubernetes
@@ -632,4 +642,4 @@ entries:
     urls:
     - https://mellerikat.github.io/eva-app/eva-app-0.1.0.tgz
     version: 0.1.0
-generated: "2026-08-27T02:33:33.886010957Z"
+generated: "2026-08-31T07:52:24.192699216Z"
